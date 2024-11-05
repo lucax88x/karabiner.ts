@@ -14,7 +14,7 @@ const macLaptopCondition = ifDevice({ is_built_in_keyboard: true });
 // ! Change '--dry-run' to your Karabiner-Elements Profile name.
 // (--dry-run print the config json into console)
 // + Create a new profile if needed.
-writeToProfile("Default", [
+writeToProfile("Default profile", [
   // rule("numbers").condition(macLaptopCondition).manipulators(mapNumbers()),
   rule("basic")
     .condition(macLaptopCondition)
